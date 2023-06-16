@@ -11,7 +11,7 @@ export function SuccessModal() {
 
   const onHomeBtnClick = () => {
     dispatch(closeSuccessModal());
-    navigate(0);
+    navigate('/');
   };
 
   return (
