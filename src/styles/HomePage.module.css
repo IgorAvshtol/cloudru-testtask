@@ -1,0 +1,156 @@
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.formBlock {
+    width: 900px;
+    padding: 25px 24px;
+    height: 704px;
+    margin-top: 115px;
+    border-radius: 12px 12px 0 0;
+    background: white;
+}
+
+.formHeader {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #D5E4F7;
+    font-family: 'SB Sans Text Mono', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.information {
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-family: 'SB Sans Interface', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+    line-height: 26px;
+}
+
+.contacts {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    font-family: 'SB Sans Interface', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #5558FA;
+}
+
+.contact a {
+    margin-top: 2px;
+    margin-left: 4px;
+    font-family: 'SB Sans Interface', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #5558FA;
+    text-decoration: none;
+}
+
+.divider {
+    margin: 24px 0;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.inputBlock {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'SB Sans Interface', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.input {
+    margin-top: 8px;
+    width: 400px;
+    height: 44px;
+    box-sizing: border-box;
+    padding: 0 12px;
+    background: rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    font-family: 'SB Sans Interface', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+}
+
+.input::placeholder {
+    color: rgba(0, 0, 0, 0.48);
+}
+
+.input:focus {
+    outline: none;
+}
+
+.button {
+    width: 79px;
+    height: 44px;
+    padding: 12px 16px;
+    background: #5558FA;
+    border: none;
+    border-radius: 4px;
+    font-family: 'SB Sans Interface', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 990px) {
+    .formBlock {
+        margin: 20px 0 10px;
+        height: auto;
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .input {
+        width: auto;
+    }
+    .formBlock {
+        margin: 20px 0 10px;
+        height: auto;
+        width: 85%;
+    }
+}

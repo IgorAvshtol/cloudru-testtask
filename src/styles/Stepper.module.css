@@ -1,0 +1,72 @@
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    counter-reset: item-counter;
+}
+
+.circleBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.currentCircle {
+    width: 16px;
+    height: 16px;
+    background: #5558FA;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.currentCircle::after {
+    counter-increment: item-counter;
+    content: counter(item-counter);
+    position: absolute;
+    top: 20px;
+    font-family: 'SB Sans Interface', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #5558FA;
+}
+
+.doneLine {
+    width: calc((100% - 48px) / 2);
+    height: 8px;
+    background: #5558FA;
+}
+
+.grayLine {
+    width: calc((100% - 48px) / 2);
+    height: 8px;
+    background: #e3e1e1;
+}
+
+.grayCircle {
+    width: 16px;
+    height: 16px;
+    background: #A6A6A6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.grayCircle::after {
+    counter-increment: item-counter;
+    content: counter(item-counter);
+    position: absolute;
+    top: 20px;
+    font-family: 'SB Sans Interface', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #5558FA;
+}
+

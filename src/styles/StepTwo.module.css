@@ -1,0 +1,65 @@
+.advantageBlock {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.errorMessage {
+    margin: 7px 0 0 10px;
+}
+
+.deleteButton {
+    margin:  5px 0 0 16px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.addButton {
+    margin-top: 8px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.checkboxesBlock {
+    margin-top: 24px;
+}
+
+.checkboxBlock {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox {
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+
+}
+
+.checkboxTitle {
+    margin: 0 0 0 8px;
+    font-family: 'SB Sans Interface', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.radioGroup {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.radio {
+    width: 16px;
+    height: 16px;
+    margin: 0 4px 3px 4px;
+}
