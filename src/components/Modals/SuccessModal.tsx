@@ -12,6 +12,7 @@ export function SuccessModal() {
   const onHomeBtnClick = () => {
     dispatch(closeSuccessModal());
     navigate('/');
+    window.location.reload();
   };
 
   return (
