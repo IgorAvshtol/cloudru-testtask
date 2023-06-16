@@ -14,7 +14,7 @@ export function Header() {
             </div>
             <div className={styles.contact}>
               <FolderIcon/>
-              <a href='https://github.com/IgorAvshtol' target='_blank'>GitHub</a>
+              <a href='https://github.com/IgorAvshtol/cloudru-testtask' target='_blank'>GitHub</a>
             </div>
             <div className={styles.contact}>
               <FolderIcon/>
