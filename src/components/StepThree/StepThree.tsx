@@ -31,7 +31,6 @@ export function StepThree() {
       ...userData,
       ...data
     };
-    console.log(sendData);
     dispatch(sendUserData(sendData));
   };
 

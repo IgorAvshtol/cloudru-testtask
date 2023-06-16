@@ -3,7 +3,7 @@ import style from '@/styles/StepOne.module.css';
 import { SuccessIcon } from '@assets/SuccessIcon.tsx';
 import { useNavigate } from 'react-router-dom';
 import { useAppDispatch } from '@store/store.ts';
-import { closeSuccessModal, setCurrentStep } from '@store/rootReducer.ts';
+import { closeSuccessModal } from '@store/rootReducer.ts';
 
 export function SuccessModal() {
   const navigate = useNavigate();
@@ -11,8 +11,7 @@ export function SuccessModal() {
 
   const onHomeBtnClick = () => {
     dispatch(closeSuccessModal());
-    dispatch(setCurrentStep(0));
-    navigate('/');
+    navigate(0);
   };
 
   return (
