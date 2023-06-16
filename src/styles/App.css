@@ -2,3 +2,13 @@ body {
     margin: 0;
     background: #f9f9f9;
 }
+
+@font-face {
+    font-family: 'SB Sans Interface';
+    src: local('SB Sans Interface'), url('src/assets/fonts/SB Sans Interface.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'SB Sans Text Mono';
+    src: local('SB Sans Text Mono'), url('src/assets/fonts/SB Sans Text.ttf') format('opentype');
+}

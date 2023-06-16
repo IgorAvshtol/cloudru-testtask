@@ -5,7 +5,7 @@ import { SexField } from '@/interfaces';
 interface SelectProps extends ComponentProps<'div'> {
   setValue: (type: 'sex', value: SexField) => void;
   clearErrors: (value: any) => void;
-  defaultValue: SexField;
+  defaultValue: SexField | null;
 }
 
 export const Select = forwardRef<HTMLDivElement, SelectProps>((props, ref) => {

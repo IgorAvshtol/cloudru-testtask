@@ -12,7 +12,7 @@ export const initialState: RootState = {
   nickname: '',
   name: '',
   surname: '',
-  sex: SexField.MAN,
+  sex: null,
   advantages: [],
   checkbox: [],
   radio: 0,

@@ -8,7 +8,7 @@ export interface RootState {
   nickname: string;
   name: string;
   surname: string;
-  sex: SexField;
+  sex: SexField | null;
   advantages: string[];
   checkbox: number[];
   radio: number;
@@ -24,7 +24,7 @@ export interface HomePageForm {
 
 export enum SexField {
   MAN = 'man',
-  WOMEN = 'women'
+  WOMEN = 'women',
 }
 
 export interface StepOneForm {
